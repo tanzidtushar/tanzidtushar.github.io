@@ -1,21 +1,61 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
 }
 
-header.jumbotron {
-    background: url('https://via.placeholder.com/1500x500') no-repeat center center;
-    background-size: cover;
-    color: white;
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-header h1, header p {
+header {
+    text-align: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
     margin: 0;
 }
 
-section {
-    padding: 60px 0;
+.intro {
+    margin: 10px 0;
 }
 
-footer {
-    background-color: #f8f9fa;
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.projects, .certificates {
+    margin-top: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
 }
