@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header.jumbotron {
+    background: url('https://via.placeholder.com/1500x500') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+header h1, header p {
+    margin: 0;
+}
+
+section {
+    padding: 60px 0;
+}
+
+footer {
+    background-color: #f8f9fa;
+}
