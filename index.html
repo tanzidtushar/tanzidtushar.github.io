@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
         <header>
             <img src="./assets/images/tushar_image.jpg" alt="tanzid tushar" class="profile-image">
             <h1>Tanzid Tushar</h1>
-            <p class="intro">Python Enthusiast. Currently Studying in the University of Alberta in MSc. in Internetworking</p>
+            <p class="intro">Python Enthusiast. Currently Studying at the University of Alberta in MSc. in Internetworking</p>
             <button onclick="downloadResume()">Download Resume</button>
         </header>
         
@@ -38,7 +38,7 @@
         function downloadResume() {
             const link = document.createElement('a');
             link.href = './assets/Tushar_CV.pdf'; // Change to your resume file path
-            link.download = 'YTushar_CV.pdf'; // Change to your desired file name
+            link.download = 'Tushar_CV.pdf'; // Change to your desired file name
             link.click();
         }
     </script>
